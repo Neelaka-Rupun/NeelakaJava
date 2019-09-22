@@ -11,10 +11,10 @@ public class Main {
          final int  MONTH_IN_YEARS  = 12;
          final int  PERCENT         = 100;
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner             = new Scanner(System.in);
 
         System.out.print("Please enter the Principle :");
-        String principle               = scanner.nextLine().trim();
+        String principle            = scanner.nextLine().trim();
 
         System.out.print("Annual Interest Rate :");
         String  intrestRate         = scanner.nextLine().trim();
